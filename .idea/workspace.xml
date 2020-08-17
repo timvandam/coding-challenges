@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5c227d-d010-4cff-aa22-b32bea3d538b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/396. Rotate Function/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/396. Rotate Function/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/396. Rotate Function/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/396. Rotate Function/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,12 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="Jest.index.test.ts (2)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LeetCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.index.test.ts (3)">
     <configuration name="index.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -84,6 +88,16 @@
       <test-file value="$PROJECT_DIR$/src/396. Rotate Function/index.test.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="index.test.ts (3)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/396. Rotate Function/index.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -96,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.index.test.ts (3)" />
         <item itemvalue="Jest.index.test.ts (2)" />
         <item itemvalue="Jest.index.test.ts (1)" />
         <item itemvalue="Jest.index.test.ts" />
@@ -111,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597677034890</updated>
       <workItem from="1597677035972" duration="4712000" />
-      <workItem from="1597682953181" duration="9820000" />
+      <workItem from="1597682953181" duration="10954000" />
     </task>
     <servers />
   </component>
@@ -139,25 +154,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597691284768" />
-    <state width="1872" height="173" key="GridCell.Tab.0.bottom" timestamp="1597693007107">
+    <state width="1872" height="173" key="GridCell.Tab.0.bottom" timestamp="1597694037622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="173" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597693007107" />
+    <state width="1872" height="173" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597694037622" />
     <state width="1552" height="173" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="173" key="GridCell.Tab.0.center" timestamp="1597693007107">
+    <state width="1872" height="173" key="GridCell.Tab.0.center" timestamp="1597694037622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="173" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597693007107" />
+    <state width="1872" height="173" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597694037622" />
     <state width="1552" height="173" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="173" key="GridCell.Tab.0.left" timestamp="1597693007107">
+    <state width="1872" height="173" key="GridCell.Tab.0.left" timestamp="1597694037622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="173" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597693007107" />
+    <state width="1872" height="173" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597694037622" />
     <state width="1552" height="173" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="173" key="GridCell.Tab.0.right" timestamp="1597693007107">
+    <state width="1872" height="173" key="GridCell.Tab.0.right" timestamp="1597694037622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="173" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597693007107" />
+    <state width="1872" height="173" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597694037622" />
     <state width="1552" height="173" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
     <state x="2208" y="85" width="1024" height="737" key="SettingsEditor" timestamp="1597682803097">
       <screen x="1920" y="0" width="1600" height="900" />
