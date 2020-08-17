@@ -6,7 +6,7 @@
  */
 
 export function maxRotateFunction (arr: number[]): number {
-	if (!arr.length) return 0
+	const arraySum = arr.reduce((x, y) => x + y, 0)
 	let sum = F(arr)
 	let max = sum
 	for (let i = 0; i < arr.length - 1; i++) {
@@ -14,7 +14,7 @@ export function maxRotateFunction (arr: number[]): number {
 		// The next combination adds one of each entry (because their index gets incremented), but the last entry (arr.length - 1 - i) becomes zero.
 		// Since it becomes zero we should subtract it (arr.length - 1) (maximum index) times. Instead I do it once more, but also add once more in the reduce statement.
 		// This is simply due to code cleanliness
-		sum = sum + arr.reduce((x, y) => x + y, 0) - arr.length * arr[arr.length - 1 - i]
+		sum = sum + arraySum - arr.length * arr[arr.length - 1 - i]
 		console.log(sum)
 		max = Math.max(max, sum)
 	}
