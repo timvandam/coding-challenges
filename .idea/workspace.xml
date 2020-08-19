@@ -20,6 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5c227d-d010-4cff-aa22-b32bea3d538b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,17 +73,7 @@
       <recent name="$PROJECT_DIR$/src/LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.index.test.ts (4)">
-    <configuration name="index.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/395. Longest Substring with At Least K Repeating Characters/index.test.ts" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.index.test.ts">
     <configuration name="index.test.ts (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -108,6 +104,16 @@
       <test-file value="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.test.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="index.test.ts (5)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -115,16 +121,16 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/394. Decode String/index.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.test.ts" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.index.test.ts" />
+        <item itemvalue="Jest.index.test.ts (5)" />
         <item itemvalue="Jest.index.test.ts (4)" />
         <item itemvalue="Jest.index.test.ts (3)" />
         <item itemvalue="Jest.index.test.ts (2)" />
-        <item itemvalue="Jest.index.test.ts (1)" />
-        <item itemvalue="Jest.index.test.ts" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +144,9 @@
       <updated>1597677034890</updated>
       <workItem from="1597677035972" duration="4712000" />
       <workItem from="1597682953181" duration="14577000" />
-      <workItem from="1597764931903" duration="4841000" />
+      <workItem from="1597764931903" duration="5460000" />
+      <workItem from="1597780225874" duration="38000" />
+      <workItem from="1597824112327" duration="3225000" />
     </task>
     <servers />
   </component>
@@ -162,29 +170,29 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2565" y="340" width="300" height="226" key="#ESLint/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597682938745" />
-    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597770929149">
+    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597824854203">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597770929149" />
-    <state width="1872" height="201" key="GridCell.Tab.0.bottom" timestamp="1597771099735">
+    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597824854203" />
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom" timestamp="1597827006844">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="201" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597771099735" />
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597827006844" />
     <state width="1552" height="173" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="201" key="GridCell.Tab.0.center" timestamp="1597771099735">
+    <state width="1872" height="232" key="GridCell.Tab.0.center" timestamp="1597827006844">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="201" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597771099735" />
+    <state width="1872" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597827006844" />
     <state width="1552" height="173" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="201" key="GridCell.Tab.0.left" timestamp="1597771099735">
+    <state width="1872" height="232" key="GridCell.Tab.0.left" timestamp="1597827006844">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="201" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597771099735" />
+    <state width="1872" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597827006844" />
     <state width="1552" height="173" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
-    <state width="1872" height="201" key="GridCell.Tab.0.right" timestamp="1597771099735">
+    <state width="1872" height="232" key="GridCell.Tab.0.right" timestamp="1597827006844">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="201" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597771099735" />
+    <state width="1872" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597827006844" />
     <state width="1552" height="173" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597688976602" />
     <state x="2208" y="85" width="1024" height="737" key="SettingsEditor" timestamp="1597682803097">
       <screen x="1920" y="0" width="1600" height="900" />
@@ -194,10 +202,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="252" key="run.anything.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597695649137" />
-    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup" timestamp="1597696198868">
+    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup" timestamp="1597824433752">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597696198868" />
+    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597824433752" />
     <state x="2383" y="194" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1597682966109" />
   </component>
 </project>

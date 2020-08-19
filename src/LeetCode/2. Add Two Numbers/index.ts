@@ -9,7 +9,6 @@
 export type ListNodeOrNull = ListNode | null
 
 export class ListNode {
-	// eslint-disable-next-line no-useless-constructor
 	constructor (public val = 0, public next: ListNodeOrNull = null) {}
 }
 
