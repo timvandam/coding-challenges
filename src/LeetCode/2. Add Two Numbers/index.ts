@@ -9,11 +9,11 @@
 export type ListNodeOrNull = ListNode | null
 
 export class ListNode {
-	constructor (public val = 0, public next: ListNodeOrNull = null) {}
+	constructor(public val = 0, public next: ListNodeOrNull = null) {}
 }
 
 // Overflow can only be one or zero, as the maximum numbers are 9 + 9 = 18, meaning the overflow is 10, thus 1 of the next digit.
-export function addTwoNumbers (one: ListNodeOrNull, two: ListNodeOrNull, overflow: 0 | 1 = 0): ListNodeOrNull {
+export function addTwoNumbers(one: ListNodeOrNull, two: ListNodeOrNull, overflow: 0 | 1 = 0): ListNodeOrNull {
 	if (!(one ?? two)) return overflow ? new ListNode(overflow) : null
 	let sum = (one?.val ?? 0) + (two?.val ?? 0) + overflow
 	overflow = sum >= 10 ? 1 : 0

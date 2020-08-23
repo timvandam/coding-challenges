@@ -8,10 +8,10 @@
 export type ListNodeOrNull = ListNode | null
 
 export class ListNode {
-	constructor (public val = 0, public next: ListNodeOrNull = null) {}
+	constructor(public val = 0, public next: ListNodeOrNull = null) {}
 }
 
-export function deleteDuplicates (head: ListNodeOrNull): ListNodeOrNull {
+export function deleteDuplicates(head: ListNodeOrNull): ListNodeOrNull {
 	if (head === null) return null
 
 	const sentinel = new ListNode(0, head)

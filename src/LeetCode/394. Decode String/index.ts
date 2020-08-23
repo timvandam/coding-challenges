@@ -10,7 +10,7 @@
  * repeat numbers, k. For example, there won't be input like 3a or 2[4].
  */
 
-export function decodeString (str: string): string {
+export function decodeString(str: string): string {
 	let result = ''
 
 	for (let i = 0; i < str.length; i++) {
@@ -33,6 +33,6 @@ export function decodeString (str: string): string {
 	return result
 }
 
-function isNumber (num: unknown): num is number {
+function isNumber(num: unknown): num is number {
 	return !Number.isNaN(Number(num))
 }

@@ -7,7 +7,7 @@
  * Calculate the maximum value of F(0), F(1), ..., F(n-1).
  */
 
-export function maxRotateFunction (arr: number[]): number {
+export function maxRotateFunction(arr: number[]): number {
 	const arraySum = arr.reduce((x, y) => x + y, 0)
 	let sum = arr.reduce((acc, num, i) => acc + i * num, 0) // initial sum
 	let max = sum

@@ -10,10 +10,10 @@
 export type ListNodeOrNull = ListNode | null
 
 export class ListNode {
-	constructor (public val = 0, public next: ListNodeOrNull = null) {}
+	constructor(public val = 0, public next: ListNodeOrNull = null) {}
 }
 
-export function addTwoNumbers (one: ListNodeOrNull, two: ListNodeOrNull): ListNodeOrNull {
+export function addTwoNumbers(one: ListNodeOrNull, two: ListNodeOrNull): ListNodeOrNull {
 	let result: ListNodeOrNull = null
 
 	/**
