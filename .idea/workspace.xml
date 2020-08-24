@@ -23,29 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5c227d-d010-4cff-aa22-b32bea3d538b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/1381. Design a Stack With Increment Operation/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/1390. Four Divisors/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/1390. Four Divisors/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/513. Find Bottom Left Tree Value/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/513. Find Bottom Left Tree Value/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/1342. Number of Steps to Reduce a Number to Zero/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/199. Binary Tree Right Side View/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/199. Binary Tree Right Side View/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/848. Shifting Letters/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/848. Shifting Letters/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/2. Add Two Numbers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/394. Decode String/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/394. Decode String/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/395. Longest Substring with At Least K Repeating Characters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/395. Longest Substring with At Least K Repeating Characters/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/396. Rotate Function/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/396. Rotate Function/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/445. Add Two Numbers II/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/82. Remove Duplicates from Sorted List II/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +93,18 @@
       <recent name="$PROJECT_DIR$/src/LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.index.test.ts (4)">
-    <configuration name="index.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.index.test.ts">
+    <configuration name="example 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/LeetCode/456. 132 Pattern/index.test.ts" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/1017. Convert to Base -2/index.test.ts" />
+      <test-names>
+        <test-name value="example 2" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="index.test.ts (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -128,17 +114,7 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/LeetCode/513. Find Bottom Left Tree Value/index.test.ts" />
-      <method v="2" />
-    </configuration>
-    <configuration name="index.test.ts (3)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Custom/1. Equally Divide Two Arrays/index.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/199. Binary Tree Right Side View/index.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="index.test.ts (4)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -151,6 +127,16 @@
       <test-file value="$PROJECT_DIR$/src/LeetCode/1390. Four Divisors/index.test.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="index.test.ts (5)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/848. Shifting Letters/index.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -158,16 +144,16 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Custom/1. Trading Cards/index.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/1017. Convert to Base -2/index.test.ts" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.index.test.ts (4)" />
-        <item itemvalue="Jest.index.test.ts (1)" />
         <item itemvalue="Jest.index.test.ts" />
-        <item itemvalue="Jest.index.test.ts (3)" />
+        <item itemvalue="Jest.example 2" />
         <item itemvalue="Jest.index.test.ts (2)" />
+        <item itemvalue="Jest.index.test.ts (5)" />
+        <item itemvalue="Jest.index.test.ts (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +183,10 @@
       <workItem from="1598171834247" duration="985000" />
       <workItem from="1598172830734" duration="658000" />
       <workItem from="1598173498756" duration="637000" />
-      <workItem from="1598174146751" duration="20114000" />
+      <workItem from="1598174146751" duration="20186000" />
+      <workItem from="1598272184813" duration="4877000" />
+      <workItem from="1598284351658" duration="43000" />
+      <workItem from="1598284520467" duration="112000" />
     </task>
     <servers />
   </component>
@@ -234,10 +223,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="417" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1597934397086" />
-    <state x="143" y="140" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598022926138">
+    <state x="143" y="140" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598275446219">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="143" y="140" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598022926138" />
+    <state x="143" y="140" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598275446219" />
     <state x="767" y="271" width="376" height="571" key="#com.intellij.ide.util.MemberChooser" timestamp="1597928677487">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -258,25 +247,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="640" y="251" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598170847251" />
-    <state width="1872" height="232" key="GridCell.Tab.0.bottom" timestamp="1598212192929">
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom" timestamp="1598280068929">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598212192929" />
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598280068929" />
     <state width="1552" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.center" timestamp="1598212192929">
+    <state width="1872" height="232" key="GridCell.Tab.0.center" timestamp="1598280068929">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598212192929" />
+    <state width="1872" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598280068929" />
     <state width="1552" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.left" timestamp="1598212192929">
+    <state width="1872" height="232" key="GridCell.Tab.0.left" timestamp="1598280068929">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598212192929" />
+    <state width="1872" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598280068929" />
     <state width="1552" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.right" timestamp="1598212192929">
+    <state width="1872" height="232" key="GridCell.Tab.0.right" timestamp="1598280068929">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598212192929" />
+    <state width="1872" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598280068929" />
     <state width="1552" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
     <state x="346" y="126" width="1024" height="737" key="SettingsEditor" timestamp="1598175428947">
       <screen x="0" y="27" width="1920" height="1053" />
