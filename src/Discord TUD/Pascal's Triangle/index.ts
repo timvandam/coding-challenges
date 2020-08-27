@@ -4,9 +4,9 @@
  */
 
 /**
- * Returns an array of rows. First row is at the top.
+ * Returns the n-th row of pascal's triangle
  */
-export function pascal(rows: number): number[] {
+export function pascal(row: number): number[] {
 	const dp: number[][] = [[1], [1, 1]]
 
 	function go(rows: number): number[] {
@@ -23,5 +23,5 @@ export function pascal(rows: number): number[] {
 		return row
 	}
 
-	return go(rows)
+	return go(row)
 }
