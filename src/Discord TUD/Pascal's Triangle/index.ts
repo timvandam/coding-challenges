@@ -5,9 +5,11 @@
 
 /**
  * Returns the n-th row of pascal's triangle
+ *
+ * This is O(1 + 2 + 3 + ... + n) = O(n(n+1)/2) = O(n^2)
  */
 export function pascal(row: number): number[] {
-	const dp: number[][] = [[1], [1, 1]]
+	const dp: number[][] = [[1]]
 
 	function go(rows: number): number[] {
 		if (dp[rows]) return dp[rows]

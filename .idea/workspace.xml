@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f5c227d-d010-4cff-aa22-b32bea3d538b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.ts" afterDir="false" />
     </list>
@@ -60,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.3.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -107,21 +106,12 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+    <configuration name="index.test.tsasd" type="JavaScriptTestRunnerJest" temporary="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" />
-      <method v="2" />
-    </configuration>
-    <configuration name="index.test.tsa" type="JavaScriptTestRunnerJest" temporary="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
+      <working-dir value="$PROJECT_DIR$/" />
+      <jest-options value="--watch" />
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" />
@@ -153,7 +143,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="jest.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jest.config.js" working-dir="$PROJECT_DIR$">
+    <configuration name="jest.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="jest.config.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -167,21 +157,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.index.test.ts" />
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.index.test.tsa" />
+      <item itemvalue="Jest.works with 5" />
+      <item itemvalue="Jest.index.test.tsasd" />
       <item itemvalue="Node.js.jest.config.js" />
       <item itemvalue="npm.test" />
-      <item itemvalue="Jest.works with 5" />
       <item itemvalue="Jest.returns row %i" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.returns row %i" />
+        <item itemvalue="Jest.index.test.tsasd" />
         <item itemvalue="Jest.works with 5" />
         <item itemvalue="npm.test" />
         <item itemvalue="Node.js.jest.config.js" />
-        <item itemvalue="Jest.index.test.tsa" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +214,8 @@
       <workItem from="1598471843599" duration="1107000" />
       <workItem from="1598530248995" duration="4665000" />
       <workItem from="1598534925367" duration="1447000" />
-      <workItem from="1598536381713" duration="981000" />
+      <workItem from="1598536381713" duration="2006000" />
+      <workItem from="1598538389126" duration="12000" />
     </task>
     <servers />
   </component>
@@ -258,10 +248,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="648" y="207" width="613" height="700" key="#TypeScript/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598378356106" />
-    <state x="637" y="212" width="1086" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598536254885">
+    <state x="637" y="212" width="1086" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598538400085">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="637" y="212" width="1086" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598536254885" />
+    <state x="637" y="212" width="1086" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538400085" />
     <state x="143" y="140" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598533010074">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -282,30 +272,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598183243343" />
-    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl" timestamp="1598536290667">
+    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl" timestamp="1598538384699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598536290667" />
+    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538384699" />
     <state x="2453" y="191" width="376" height="422" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598288897958" />
-    <state width="1872" height="232" key="GridCell.Tab.0.bottom" timestamp="1598537307875">
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom" timestamp="1598538387651">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537307875" />
+    <state width="1872" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538387651" />
     <state width="1552" height="232" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.center" timestamp="1598537307875">
+    <state width="1872" height="232" key="GridCell.Tab.0.center" timestamp="1598538387651">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537307875" />
+    <state width="1872" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538387651" />
     <state width="1552" height="232" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.left" timestamp="1598537307875">
+    <state width="1872" height="232" key="GridCell.Tab.0.left" timestamp="1598538387651">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537307875" />
+    <state width="1872" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538387651" />
     <state width="1552" height="232" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
-    <state width="1872" height="232" key="GridCell.Tab.0.right" timestamp="1598537307875">
+    <state width="1872" height="232" key="GridCell.Tab.0.right" timestamp="1598538387651">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537307875" />
+    <state width="1872" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538387651" />
     <state width="1552" height="232" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598028677782" />
     <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1598471831960">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -355,10 +345,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1872" height="338" key="GridCell.Tab.3.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598471831961" />
-    <state x="346" y="126" width="1024" height="737" key="SettingsEditor" timestamp="1598536930302">
+    <state x="346" y="126" width="1024" height="737" key="SettingsEditor" timestamp="1598537734734">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="346" y="126" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598536930302" />
+    <state x="346" y="126" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537734734" />
     <state x="2208" y="85" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598127110295" />
     <state x="832" y="399" width="246" height="316" key="cloudConfig.SelfSettingsDialog" timestamp="1598030474517">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -376,10 +366,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="252" key="run.anything.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598363506894" />
-    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup" timestamp="1598536915444">
+    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup" timestamp="1598537715618">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598536915444" />
+    <state x="556" y="254" width="807" height="794" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598537715618" />
     <state x="2383" y="194" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598126271105" />
     <state x="684" y="463" width="824" height="187" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598116294795">
       <screen x="0" y="27" width="1920" height="1053" />
