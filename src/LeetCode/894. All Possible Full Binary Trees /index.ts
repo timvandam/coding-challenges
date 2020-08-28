@@ -16,21 +16,18 @@ export type TreeNodeOrNull = TreeNode | null
 export function allPossibleFBT(n: number): TreeNode[] {
 	const dp: TreeNode[][] = [[], [new TreeNode(0)]]
 
-	function go(n: number): TreeNode[] {
-		if (dp[n]) return dp[n]
-		dp[n] = []
-		// We are going to try every possible distribution of n nodes. (EG: N=5: [1L, 3R], [3L, 1R])
-		for (let i = 1; i < n; i += 2) {
-			const leftCombos = go(i)
-			const rightCombos = go(n - i - 1)
+	for (let i = 3; i <= n; i += 2) {
+		dp[i] = []
+		for (let j = 1; j < i; j += 2) {
+			const leftCombos = dp[j]
+			const rightCombos = dp[i - j - 1]
 			for (const left of leftCombos) {
 				for (const right of rightCombos) {
-					dp[n].push(new TreeNode(0, left, right))
+					dp[i].push(new TreeNode(0, left, right))
 				}
 			}
 		}
-		return dp[n]
 	}
 
-	return go(n)
+	return dp[dp.length - 1]
 }

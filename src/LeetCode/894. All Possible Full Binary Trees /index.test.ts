@@ -11,32 +11,28 @@ const createTree = (array: (number | null)[], i = 0): TreeNodeOrNull => {
 		: null
 }
 
-const eachTrees = (...cases: (number | null)[][]) => cases.map((tree) => createTree(tree))
+const trees = (...cases: (number | null)[][]) => cases.map((tree) => createTree(tree))
 
-describe('example 1', () => {
-	const result = allPossibleFBT(7)
-	it.each(
-		eachTrees(
-			[0, 0, 0, null, null, 0, 0, null, null, null, null, 0, 0],
-			[0, 0, 0, null, null, 0, 0, null, null, null, null, 0, 0],
-			[0, 0, 0, 0, 0, 0, 0],
-			[0, 0, 0, 0, 0, null, null, null, null, 0, 0],
-			[0, 0, 0, 0, 0, null, null, 0, 0]
+it('example 1', () => {
+	expect(allPossibleFBT(7)).toEqual(
+		expect.arrayContaining(
+			trees(
+				[0, 0, 0, null, null, 0, 0, null, null, null, null, 0, 0],
+				[0, 0, 0, null, null, 0, 0, null, null, null, null, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, null, null, null, null, 0, 0],
+				[0, 0, 0, 0, 0, null, null, 0, 0]
+			)
 		)
-	)('contains possible tree', (tree) => {
-		expect(result).toContainEqual(tree)
-	})
+	)
 })
 
-describe('example 2', () => {
-	it('contains possible tree', () => {
-		expect(allPossibleFBT(3)).toEqual([[0, 0, 0]].map(createTree))
-	})
+it('example 2', () => {
+	expect(allPossibleFBT(3)).toEqual(trees([0, 0, 0]))
 })
 
-describe('example 3', () => {
-	const result = allPossibleFBT(5)
-	it.each(eachTrees([0, 0, 0, 0, 0, null, null], [0, 0, 0, null, null, 0, 0]))('contains possible tree', (tree) => {
-		expect(result).toContainEqual(tree)
-	})
+it('example 3', () => {
+	expect(allPossibleFBT(5)).toEqual(
+		expect.arrayContaining(trees([0, 0, 0, 0, 0, null, null], [0, 0, 0, null, null, 0, 0]))
+	)
 })
