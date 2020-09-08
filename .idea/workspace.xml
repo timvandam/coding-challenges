@@ -21,16 +21,34 @@
     </expand>
     <select />
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5c227d-d010-4cff-aa22-b32bea3d538b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Codeforces/71A. Way Too Long Words/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/1480. Running Sum of 1d Array/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/540. Single Element in a Sorted Array/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/540. Single Element in a Sorted Array/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/560. Subarray Sum Equals K/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/560. Subarray Sum Equals K/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Unresolved/1130. Minimum Cost Tree From Leaf Values/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Unresolved/1130. Minimum Cost Tree From Leaf Values/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
@@ -58,9 +76,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.3.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iterators" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,28 +94,28 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.jsOptions" />
+    <property name="settings.editor.selected.configurable" value="Console" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Custom/1. Equally Divide Two Arrays" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Codeforces/4A. Watermelon" />
+      <recent name="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle" />
+      <recent name="$PROJECT_DIR$/src/LeetCode/Unresolved" />
+      <recent name="$PROJECT_DIR$/src/LeetCode/1130. Minimum Cost Tree From Leaf Values" />
+      <recent name="$PROJECT_DIR$/src/LeetCode/1305. All Elements in Two Binary Search Trees" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/Custom/1. Equally Divide Two Arrays/utils.ts" />
       <recent name="$PROJECT_DIR$/src/Custom/1. Equally Divide Two Arrays/index.ts" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle" />
-      <recent name="$PROJECT_DIR$/src/LeetCode/Unresolved" />
-      <recent name="$PROJECT_DIR$/src/LeetCode/1130. Minimum Cost Tree From Leaf Values" />
-      <recent name="$PROJECT_DIR$/src/LeetCode/1305. All Elements in Two Binary Search Trees" />
-      <recent name="$PROJECT_DIR$/src/LeetCode" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Custom/1. Equally Divide Two Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.example 1`">
+  <component name="RunManager" selected="Jest.index.test.ts">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -107,27 +126,24 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="example 1`" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.test.ts" />
-      <test-names>
-        <test-name value="example 1`" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="index.test.ts (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="index.test.js (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" />
+      <test-file value="$PROJECT_DIR$/lib/LeetCode/3. Longest Substring Without Repeating Characters/index.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/lib/Discord TUD/Pascal's Triangle/index.test.js" />
       <method v="2" />
     </configuration>
     <configuration name="index.test.ts (2)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -137,47 +153,44 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/LeetCode/894. All Possible Full Binary Trees /index.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/3. Longest Substring Without Repeating Characters/index.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="returns something with 999" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="index.test.ts (3)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" />
-      <test-names>
-        <test-name value="returns something with 999" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/LeetCode/560. Subarray Sum Equals K/index.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
+    <configuration name="index.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Discord TUD/Pascal's Triangle/index.test.ts" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.index.test.ts (1)" />
-      <item itemvalue="Jest.returns something with 999" />
-      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.index.test.js (1)" />
+      <item itemvalue="Jest.index.test.js" />
       <item itemvalue="Jest.index.test.ts (2)" />
-      <item itemvalue="Jest.example 1`" />
+      <item itemvalue="Jest.index.test.ts (3)" />
+      <item itemvalue="Jest.index.test.ts" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.example 1`" />
+        <item itemvalue="Jest.index.test.ts" />
+        <item itemvalue="Jest.index.test.js (1)" />
+        <item itemvalue="Jest.index.test.js" />
+        <item itemvalue="Jest.index.test.ts (3)" />
         <item itemvalue="Jest.index.test.ts (2)" />
-        <item itemvalue="Jest.index.test.ts (1)" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="Jest.returns something with 999" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +238,14 @@
       <workItem from="1598538389126" duration="4480000" />
       <workItem from="1598554470359" duration="815000" />
       <workItem from="1598603234540" duration="1155000" />
+      <workItem from="1598632962921" duration="5969000" />
+      <workItem from="1598641341381" duration="645000" />
+      <workItem from="1598701436038" duration="7352000" />
+      <workItem from="1598723201397" duration="2618000" />
+      <workItem from="1598863528633" duration="5000" />
+      <workItem from="1598865856552" duration="139000" />
+      <workItem from="1598871231488" duration="16000" />
+      <workItem from="1598949640160" duration="5000" />
     </task>
     <servers />
   </component>
@@ -253,10 +274,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="648" y="237" width="623" height="640" key="#JavaScript/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598170253792" />
-    <state x="2424" y="274" width="582" height="359" key="#Notifications" timestamp="1598554258523">
+    <state x="2424" y="274" width="582" height="359" key="#Notifications" timestamp="1598719229435">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2424" y="274" width="582" height="359" key="#Notifications/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554258523" />
+    <state x="2424" y="274" width="582" height="359" key="#Notifications/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598719229435" />
     <state x="648" y="207" width="613" height="700" key="#TypeScript" timestamp="1598378356106">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -286,31 +307,31 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598183243343" />
-    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl" timestamp="1598538384699">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2453" y="191" width="517" height="493" key="FileChooserDialogImpl" timestamp="1598949643684">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598538384699" />
-    <state x="2453" y="191" width="376" height="422" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598288897958" />
-    <state width="1872" height="263" key="GridCell.Tab.0.bottom" timestamp="1598604241110">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="640" y="251" width="517" height="493" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598871245372" />
+    <state x="2453" y="191" width="376" height="422" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598949643684" />
+    <state width="1552" height="193" key="GridCell.Tab.0.bottom" timestamp="1598723178458">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1872" height="263" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598604241110" />
-    <state width="1552" height="276" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554369727" />
-    <state width="1872" height="263" key="GridCell.Tab.0.center" timestamp="1598604241110">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1872" height="262" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598703903588" />
+    <state width="1552" height="193" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598723178458" />
+    <state width="1552" height="193" key="GridCell.Tab.0.center" timestamp="1598723178458">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1872" height="263" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598604241110" />
-    <state width="1552" height="276" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554369727" />
-    <state width="1872" height="263" key="GridCell.Tab.0.left" timestamp="1598604241110">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1872" height="262" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598703903588" />
+    <state width="1552" height="193" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598723178458" />
+    <state width="1552" height="193" key="GridCell.Tab.0.left" timestamp="1598723178458">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1872" height="263" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598604241110" />
-    <state width="1552" height="276" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554369727" />
-    <state width="1872" height="263" key="GridCell.Tab.0.right" timestamp="1598604241110">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1872" height="262" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598703903587" />
+    <state width="1552" height="193" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598723178458" />
+    <state width="1552" height="193" key="GridCell.Tab.0.right" timestamp="1598723178458">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1872" height="263" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598604241110" />
-    <state width="1552" height="276" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554369727" />
+    <state width="1872" height="262" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598703903588" />
+    <state width="1552" height="193" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598723178458" />
     <state width="1552" height="276" key="GridCell.Tab.1.bottom" timestamp="1598554369728">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
@@ -371,19 +392,27 @@
     </state>
     <state width="1872" height="338" key="GridCell.Tab.3.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598471831961" />
     <state width="1552" height="276" key="GridCell.Tab.3.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598554369728" />
-    <state x="346" y="126" width="1024" height="737" key="SettingsEditor" timestamp="1598555043935">
+    <state x="736" y="236" width="437" height="642" key="RollbackChangesDialog" timestamp="1598615563896">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="346" y="126" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598555043935" />
+    <state x="736" y="236" width="437" height="642" key="RollbackChangesDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598615563896" />
+    <state x="346" y="126" width="1024" height="737" key="SettingsEditor" timestamp="1598625453717">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="346" y="126" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598625453717" />
     <state x="2208" y="85" width="1024" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1598127110295" />
+    <state width="748" height="446" key="SwitcherDM" timestamp="1598633332838">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="748" height="446" key="SwitcherDM/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598633332838" />
     <state x="832" y="399" width="246" height="316" key="cloudConfig.SelfSettingsDialog" timestamp="1598030474517">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="832" y="399" width="246" height="316" key="cloudConfig.SelfSettingsDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598030474517" />
-    <state x="740" y="467" width="430" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598363289462">
+    <state x="740" y="467" width="440" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598614340489">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="740" y="467" width="430" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598363289462" />
+    <state x="740" y="467" width="440" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1598614340489" />
     <state x="750" y="375" width="419" height="363" key="export.test.results" timestamp="1598536203407">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

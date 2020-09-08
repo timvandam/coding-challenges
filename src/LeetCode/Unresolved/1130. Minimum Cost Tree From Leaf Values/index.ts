@@ -13,4 +13,5 @@
 export function mctFromLeafValues(leaves: number[]): number {
 	if (leaves.length < 2) return 0
 	// NOTE: asd
+	return 0
 }
