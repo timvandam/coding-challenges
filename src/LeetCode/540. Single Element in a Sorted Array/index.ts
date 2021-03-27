@@ -7,18 +7,18 @@
  */
 
 export function singleNonDuplicate(nums: number[]): number {
-	// Mid is always placed at an even index, as every pair should start there
-	let min = 0
-	let max = nums.length - 2
-	while (max > min) {
-		let mid = Math.floor((max + min) / 2)
-		if (mid % 2 !== 0) mid--
-		// Not a pair? We need to go to the left
-		if (nums[mid] !== nums[mid + 1]) {
-			max = mid
-		} else min = mid + 2 // A pair? We need to go to the right
-	}
-	return nums[min]
+  // Mid is always placed at an even index, as every pair should start there
+  let min = 0
+  let max = nums.length - 2
+  while (max > min) {
+    let mid = Math.floor((max + min) / 2)
+    if (mid % 2 !== 0) mid--
+    // Not a pair? We need to go to the left
+    if (nums[mid] !== nums[mid + 1]) {
+      max = mid
+    } else min = mid + 2 // A pair? We need to go to the right
+  }
+  return nums[min]
 }
 
 /*enum Side {

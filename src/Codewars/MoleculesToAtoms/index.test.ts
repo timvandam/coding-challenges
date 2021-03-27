@@ -19,3 +19,7 @@ test('ethane with braces', () => {
 test('double ethane with braces', () => {
   expect(parseMolecule('(C2H6)2')).toEqual({ C: 4, H: 12 })
 })
+
+test('nested braces with', () => {
+  expect(parseMolecule('([{C2H6}])2')).toEqual({ C: 4, H: 12 })
+})

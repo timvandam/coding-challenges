@@ -10,40 +10,40 @@
 export type ListNodeOrNull = ListNode | null
 
 export class ListNode {
-	constructor(public val = 0, public next: ListNodeOrNull = null) {}
+  constructor(public val = 0, public next: ListNodeOrNull = null) {}
 }
 
 export function addTwoNumbers(one: ListNodeOrNull, two: ListNodeOrNull): ListNodeOrNull {
-	let result: ListNodeOrNull = null
+  let result: ListNodeOrNull = null
 
-	/**
-	 * Use stacks to get the last elements of both lists
-	 */
-	const stackOne: ListNode[] = []
-	const stackTwo: ListNode[] = []
+  /**
+   * Use stacks to get the last elements of both lists
+   */
+  const stackOne: ListNode[] = []
+  const stackTwo: ListNode[] = []
 
-	while (one ?? two) {
-		if (one) stackOne.push(one)
-		if (two) stackTwo.push(two)
+  while (one ?? two) {
+    if (one) stackOne.push(one)
+    if (two) stackTwo.push(two)
 
-		one = one?.next ?? null
-		two = two?.next ?? null
-	}
+    one = one?.next ?? null
+    two = two?.next ?? null
+  }
 
-	/**
-	 * Take the last elements of each list and add them. Handle overflows too
-	 */
-	let overflow: 0 | 1 = 0
-	while (stackOne.length || stackTwo.length || overflow) {
-		const a = stackOne.pop()
-		const b = stackTwo.pop()
+  /**
+   * Take the last elements of each list and add them. Handle overflows too
+   */
+  let overflow: 0 | 1 = 0
+  while (stackOne.length || stackTwo.length || overflow) {
+    const a = stackOne.pop()
+    const b = stackTwo.pop()
 
-		let sum: number = (a?.val ?? 0) + (b?.val ?? 0) + overflow
-		overflow = sum >= 10 ? 1 : 0
-		sum -= overflow * 10
+    let sum: number = (a?.val ?? 0) + (b?.val ?? 0) + overflow
+    overflow = sum >= 10 ? 1 : 0
+    sum -= overflow * 10
 
-		result = new ListNode(sum, result)
-	}
+    result = new ListNode(sum, result)
+  }
 
-	return result
+  return result
 }

@@ -11,28 +11,28 @@
  */
 
 export function decodeString(str: string): string {
-	let result = ''
+  let result = ''
 
-	for (let i = 0; i < str.length; i++) {
-		const char = str[i]
-		if (isNumber(char)) {
-			const k = parseInt(str.slice(i).match(/([1-9][0-9]*)/)?.[1] ?? '0')
-			let chars = ''
-			let bracketCount = 1
-			for (const char of str.slice(i + k.toString().length + 1)) {
-				if (char === '[') bracketCount++
-				else if (char === ']') bracketCount--
-				if (bracketCount !== 0) chars += char
-				else break
-			}
-			result += decodeString(chars).repeat(k)
-			i += k.toString().length + chars.length + 1
-		} else result += char
-	}
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i]
+    if (isNumber(char)) {
+      const k = parseInt(str.slice(i).match(/([1-9][0-9]*)/)?.[1] ?? '0')
+      let chars = ''
+      let bracketCount = 1
+      for (const char of str.slice(i + k.toString().length + 1)) {
+        if (char === '[') bracketCount++
+        else if (char === ']') bracketCount--
+        if (bracketCount !== 0) chars += char
+        else break
+      }
+      result += decodeString(chars).repeat(k)
+      i += k.toString().length + chars.length + 1
+    } else result += char
+  }
 
-	return result
+  return result
 }
 
 function isNumber(num: unknown): num is number {
-	return !Number.isNaN(Number(num))
+  return !Number.isNaN(Number(num))
 }

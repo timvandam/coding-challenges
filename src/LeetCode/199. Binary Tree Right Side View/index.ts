@@ -6,7 +6,11 @@
  */
 
 export class TreeNode {
-	constructor(public val = 0, public left: TreeNode | null = null, public right: TreeNode | null = null) {}
+  constructor(
+    public val = 0,
+    public left: TreeNode | null = null,
+    public right: TreeNode | null = null
+  ) {}
 }
 
 /**
@@ -15,21 +19,21 @@ export class TreeNode {
  * every row.
  */
 export function rightSideView(root: TreeNode | null): number[] {
-	let queue: TreeNode[] = []
-	const result: number[] = []
-	if (root) queue.push(root)
-	let nextRow: TreeNode[] = []
-	while (queue.length) {
-		const { left, right, val } = queue.shift() as TreeNode
-		if (left) nextRow.push(left)
-		if (right) nextRow.push(right)
+  let queue: TreeNode[] = []
+  const result: number[] = []
+  if (root) queue.push(root)
+  let nextRow: TreeNode[] = []
+  while (queue.length) {
+    const { left, right, val } = queue.shift() as TreeNode
+    if (left) nextRow.push(left)
+    if (right) nextRow.push(right)
 
-		if (!queue.length) {
-			// We're at the last element of a row
-			result.push(val)
-			queue = nextRow
-			nextRow = []
-		}
-	}
-	return result
+    if (!queue.length) {
+      // We're at the last element of a row
+      result.push(val)
+      queue = nextRow
+      nextRow = []
+    }
+  }
+  return result
 }

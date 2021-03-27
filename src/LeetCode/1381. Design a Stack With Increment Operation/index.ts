@@ -10,20 +10,20 @@
  */
 
 class CustomStack {
-	private readonly stack: number[] = []
+  private readonly stack: number[] = []
 
-	constructor(private maxSize: number) {}
+  constructor(private maxSize: number) {}
 
-	push(x: number): void {
-		if (this.stack.length === this.maxSize) return
-		this.stack.push(x)
-	}
+  push(x: number): void {
+    if (this.stack.length === this.maxSize) return
+    this.stack.push(x)
+  }
 
-	pop(): number {
-		return this.stack.pop() ?? -1
-	}
+  pop(): number {
+    return this.stack.pop() ?? -1
+  }
 
-	increment(k: number, val: number): void {
-		for (let i = 0; i < Math.min(k, this.stack.length); i++) this.stack[i] += val
-	}
+  increment(k: number, val: number): void {
+    for (let i = 0; i < Math.min(k, this.stack.length); i++) this.stack[i] += val
+  }
 }
